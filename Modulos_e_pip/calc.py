@@ -4,9 +4,12 @@ def sum(a, b):
 
 def sub(a, b):
     result = a - b
+    return result
 
 def mult(a, b):
     result = a * b
+    return result
 
 def div(a, b):
     result = a / b
+    return result
