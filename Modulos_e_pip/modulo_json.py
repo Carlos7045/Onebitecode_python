@@ -2,7 +2,7 @@ import json
 
 # 1 - Strings para Dicionário 
 person =  '{"name": "Rodrigo", "languagens": ["Python", "Javascript"]}' 
-person_dict = json.loads(pessoa)
+person_dict = json.loads("pessoa")
 print(person_dict)
 print(person_dict['languagens'])
 
